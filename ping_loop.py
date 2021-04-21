@@ -8,7 +8,7 @@ def cool_function_bro():
 
 
         with open(os.devnull, "wb") as limbo:
-                add = ["127.0.0.1","10.1.1.254","1.1.1.1"]
+                add = ["127.0.0.1","10.1.1.254","1.1.1.1","1.0.0.1","192.168.178.1"]
                 for n in range(len(add)):
                         ip = (add[n])
                         result = subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", ip],
